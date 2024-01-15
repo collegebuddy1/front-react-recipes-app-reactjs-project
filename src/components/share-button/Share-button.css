@@ -1,0 +1,12 @@
+/* Share-button.css */
+.share-button {
+    display:flex;
+    justify-content: flex-end;
+    padding: 5px;
+    text-decoration: none;
+  }
+  
+.title-share{
+  margin-right: 10px;
+}
+  

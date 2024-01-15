@@ -1,0 +1,46 @@
+#login-card-container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 0;
+    max-width: 90%;
+}
+
+.login-form{
+    text-align: left;
+    color: 
+    #644905;
+    font-family: 'Fresca', sans-serif;
+    font-size: 1em;
+}
+
+#labTypoColor{
+    color: 
+    #795908;
+}
+
+.login-card {
+    display: flex;
+    border-radius: 30px;
+    margin: 30px auto;
+    padding: 50px;
+    max-width: 600px;
+}
+
+#submitLog{
+    justify-self: center;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 0px 30px 0px 30px;
+    background-color: 
+    #f7b103 ;
+    color: 
+    #6e5005;
+    font-family: 'Fresca', sans-serif;
+    font-size: 1.2em;
+    --bs-btn-border-color: 0;
+}
+
+#forgPassword{
+    justify-self: center;
+}

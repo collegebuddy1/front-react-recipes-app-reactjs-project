@@ -1,0 +1,18 @@
+.customnav{
+background: rgb(248,246,242);
+background: linear-gradient(90deg, rgba(248,246,242,1) 54%, rgba(248,246,242,1) 66%);
+
+}
+
+.loginCustom{
+    margin-right: 12px;
+    font-size: 16px;
+}
+
+
+
+a {
+    color: black !important;
+    text-decoration: none !important;
+    
+}

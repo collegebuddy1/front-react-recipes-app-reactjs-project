@@ -1,0 +1,66 @@
+#registerCard{
+    font-family: 'Fresca', sans-serif;
+    background-color: #f7b103;
+    border: none;
+    padding: 30px;
+    max-width: 600px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    }
+    
+    span::after {
+    padding-left: 5px;
+    }
+    
+    input:invalid + span::after {
+    content: "✖";
+    }
+    
+    input:valid + span::after {
+    content: "✓";
+    }
+    
+    span::after {
+    padding-left: 5px;
+    }
+    
+    input:invalid + span::after {
+    content: "✖";
+    }
+    
+    input:valid + span::after {
+    content: "✓";
+    }
+
+    #selectField{
+    margin-bottom: 1vh;
+    }
+
+    #btnContainer{
+    display: flex;
+    justify-content: flex-end;
+    }
+
+    #createBtn{
+    background-color: #78a505;
+    border: none;
+    font-size: 1.2em;
+    margin-top: 1.2em ;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .form-title{
+        height: 55px !important;;
+        font-size: 1.5em!important;
+        width: fit-content!important;
+        padding-right: 3vh;
+        }
+    
+        #registerCard{
+        padding: 1.5vh!important;
+        }
+    
+    }
